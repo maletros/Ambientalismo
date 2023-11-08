@@ -64,3 +64,69 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Estilo para a seção do chatbot */
+#chatbot {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilo para a área de conversa */
+#chatbox {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as mensagens do chatbot e do usuário */
+.chat-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.user {
+    background-color: #339933;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.bot {
+    background-color: #0077CC;
+    color: #fff;
+    align-self: flex-start;
+}
+
+/* Estilo para a entrada do usuário e botão de envio */
+.user-input {
+    display: flex;
+}
+
+#user-message {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    background-color: #0077CC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #005599;
+}
